@@ -10,16 +10,15 @@ documentation for each part.
 
 ## Repository Layout
 
+```
 ASSIGNMENT/
 │
-├── scraper/ → Q1: Python Web Scraping
-├── sql/ → Q2: SQL Queries (Rfam Database)
-├── shell/ → Q3: Unix Shell Script
+├── scraper/     → Q1: Python Web Scraping
+├── sql/         → Q2: SQL Queries (Rfam Database)
+├── shell/       → Q3: Unix Shell Script
 │
-└── README.md (this file)
-
-yaml
-Copy code
+└── README.md    (this file)
+```
 
 ---
 
@@ -34,10 +33,7 @@ Copy code
 - Extracts product name, URL, and pricing
 
 ➡ Full implementation details, design choices, and run instructions are documented in:
-scraper/README.md
-
-yaml
-Copy code
+[scraper/README.md](scraper/README.md)
 
 ---
 
@@ -51,10 +47,7 @@ Copy code
   - Paginated query over RNA families with large DNA sequences
 
 ➡ SQL queries and observed outputs are documented in:
-sql/README.md
-
-yaml
-Copy code
+[sql/README.md](sql/README.md)
 
 ---
 
@@ -66,10 +59,7 @@ Copy code
 - Outputs results sorted by founding year
 
 ➡ Usage instructions and implementation notes are documented in:
-shell/README.md
-
-yaml
-Copy code
+[shell/README.md](shell/README.md)
 
 ---
 
